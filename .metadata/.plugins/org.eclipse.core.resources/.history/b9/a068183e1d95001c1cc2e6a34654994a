@@ -1,0 +1,10 @@
+
+public class MobileData {
+	private String search;
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

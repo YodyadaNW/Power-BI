@@ -1,0 +1,19 @@
+
+public class MobileSearch extends MobileData{
+	private String name;
+	private String phone;
+	private int mainPro;
+	private int[] extraPro;
+	
+	void MobileData(String search){
+		
+	}
+	
+	public boolean searchData() {
+		return true;
+	}
+	
+	public void show() {
+		
+	}
+}

@@ -1,0 +1,21 @@
+import java.io.*;
+public class MobileSearch extends MobileData{
+	private String name;
+	private String phone;
+	private int mainPro;
+	private int[] extraPro;
+	
+	void MobileData(String search){
+		
+	}
+	
+	public boolean searchData() throws IOException{
+		File filename = new File("src//CustomerData.txt");
+		return true;
+	}
+	
+	public void show() {
+		System.out.println("NO DATA FOUND.");
+		System.out.println("Sorry, file not found...");
+	}
+}
